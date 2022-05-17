@@ -30,6 +30,11 @@ function formatDay(timestamp) {
   return days[day];
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  forecastElement.innerHTML = `<div class="row">`;
+}
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
